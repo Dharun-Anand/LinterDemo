@@ -1,5 +1,5 @@
 # LinterDemo
-Repo to demonstrate Github Super Linter 
+Repository to demonstrate GitHub Super Linter 
 
 Contains a Python code that performs a bubble sort with deliberate bugs.
 
