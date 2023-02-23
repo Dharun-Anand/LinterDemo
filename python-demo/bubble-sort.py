@@ -1,12 +1,11 @@
-def bubble_sort(lst):
-    n = len(lst)
+def bubble_sort(arr):
+    n = len(arr)
     for i in range(n):
         for j in range(0, n-i-1):
-            if lst[j] > lst[j+1]
-                lst[j], lst[j+1] = lst[j+1], lst[j]
-    
-    return lst
+            if arr[j] > arr[j+1]
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
 
-lst = [3, 2, 1, 4, 5]
-sorted_lst = bubble_sort(lst)
-print(sorted_lst)
+arr = [64, 34, 25, 12, 22, 11, 90]
+sorted_arr = bubble_sort(arr)
+print("Sorted array:", sorted_arr)
